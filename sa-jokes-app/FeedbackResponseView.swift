@@ -10,6 +10,7 @@ struct FeedbackResponseView: View {
                 .resizable()
                 .scaledToFit()
             Text(isPositive ? "Thanks! Have a cookie 🍪!" : "Why are you so mean?? I will bite you.")
+            
                 .padding()
         }
     }
